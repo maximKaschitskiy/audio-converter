@@ -34,5 +34,4 @@ After providing the required input, the application will scan all the subfolders
 
 If the application is run on a Windows operating system, it will attempt to read the LAME_PATH environment variable from the .env file. This environment variable should contain the path to the main Lame For Audacity package. Ensure that the .env file is present and properly configured for the application to locate and use the LAME software.
 See description of 'node-lame' for more details:
-
 ['node-lame'](https://www.npmjs.com/package/node-lame)
