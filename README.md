@@ -1,5 +1,5 @@
 
-`# Wav-to-Mp3 Converter CLI Application
+# Wav-to-Mp3 Converter CLI Application
 
 ## Description
 
