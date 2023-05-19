@@ -33,7 +33,7 @@ const deepSearch = (folders, ext) => {
         const stat = fs.statSync(filePath);
   
         if (stat.isDirectory()) {
-          results = results.concat(deepSearch([filePath]));
+          results = results.concat(deepSearch([filePath], ext));
         } else if (file.endsWith(ext)) {
           results.push(filePath);
         }
